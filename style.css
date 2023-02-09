@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 *, *::before, *::after {
@@ -30,9 +33,36 @@ img, picture, video, canvas, svg {
     grid-column: 1/2;
     width: 100%;
     display: grid;
-    grid-template-rows: auto auto auto;
-    gap: 8vh;
+    grid-template-rows: 1.5fr 5fr 9fr;
     background-color: rgb(33 125 141);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: start;
+}
+
+.sidebar-group1,
+.sidebar-group2 {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    align-content: center;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+
+
+.dashboard {
+    grid-template-columns: 1fr 4fr;
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    align-content: space-between;
+}
+
+.dashboard p{
+    font-size: 24px;
 }
 
 .header {
@@ -86,6 +116,7 @@ img, picture, video, canvas, svg {
 
 .project {
     padding: 20px 10px;
+    border-radius: 5px;
 }
 
 .main-col2 {
