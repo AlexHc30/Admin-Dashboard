@@ -36,7 +36,7 @@ img, picture, video, canvas, svg {
     grid-template-rows: 1.5fr 5fr 9fr;
     background-color: rgb(33 125 141);
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     align-items: start;
 }
@@ -154,6 +154,7 @@ input:focus {
     background-color: #217D8D;
     color: #fff;
     border: 0;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -193,7 +194,7 @@ input:focus {
 
 .projects p,
 .announcement p {
-    font-size: 13px;
+    font-size: 15px;
     color: #505050;
 }
 
@@ -245,7 +246,7 @@ input:focus {
 }
 
 .announcement p{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .announcement:last-child {
@@ -261,7 +262,7 @@ input:focus {
 }
 
 .trending p {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .trending img {
